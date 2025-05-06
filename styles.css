@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size:32px ;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    text-align: center;
+}
+
+img {
+    width: 420px;
+    margin: 100px;
+}
+
+
+ button {
+    width: 260px;
+    height: 62px;
+    font-size: 24px;
+    border-radius: 21px;
+    cursor: pointer;
+ }
