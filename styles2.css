@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+p {
+    font-size: 32px;
+    width: 655px;
+    height: 530px;
+    color: white;
+    
+
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 420px;
+}
+
+@media screen and (max-width: 728px){
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    p {
+        font-size: 18px;
+        width: 320px;
+    }
+}
